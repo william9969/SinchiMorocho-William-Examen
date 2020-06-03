@@ -7,7 +7,7 @@
 <body>
     <?php
     //incluir conexión a la base de datos
-    include '../../config/conexionBD.php';
+    include '../../Controlador/conexion.php';
     $libNom = isset($_POST["nombreLib"]) ? trim($_POST["nombreLib"]) : null;
     $libISBN = isset($_POST["isbn"]) ? mb_strtoupper(trim($_POST["isbn"]), 'UTF-8') : null;
     $libNPag = isset($_POST["npaginas"]) ? mb_strtoupper(trim($_POST["npaginas"]), 'UTF-8') : null;

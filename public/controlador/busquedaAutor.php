@@ -1,13 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de usuarios</title>
+    <link href="../vista/CSS/tabla.css" type="text/css"  rel="stylesheet"/>
+</head>
+<body>
+
+
 <?php
  //incluir conexión a la base de datos
- include '../../../../config/conexionBD.php';
+ include '../../Controlador/conexion.php';
  $codAutor = $_GET['codAutor'];
  //echo "Hola " . $cedula;
 
  $sql = "SELECT * FROM autor WHERE  autCodigo='$codAutor'";
 //cambiar la consulta para puede buscar por ocurrencias de letras
  $result = $conn->query($sql);
- echo " <table style='width:100%'>
+ echo " <table style='width:60%'>
  <tr>
  <th>Nombre Autor</th>
  <th>Nacionalidad</th>
@@ -29,3 +39,6 @@
  $conn->close();
 
 ?>
+
+</body>
+</html>

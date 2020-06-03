@@ -1,7 +1,8 @@
 function busquedaAutor(){
     var codAutor = document.getElementById("buscar").value;
-    if(codAutor.length==10){
-    if (telefono == "") {
+    console.log("Aquii");
+    if (codAutor == "") {
+        console.log("Aquii3");
         codAutor.getElementById("informacion").innerHTML = "";
         } else {
         if (window.XMLHttpRequest) {
@@ -21,6 +22,5 @@ function busquedaAutor(){
         xmlhttp.open("GET","../controlador/busquedaAutor.php?codAutor="+codAutor,true);
         xmlhttp.send();
         }
-        return false;
-    }
+        return false;   
 }

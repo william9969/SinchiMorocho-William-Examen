@@ -1,0 +1,69 @@
+body{
+    background-color: coral;
+}
+header {width: 100%; height: 300px;}
+.principal {
+    float: left;
+    width: 30%;
+}
+.principal #prin{
+    float: left;
+    width: 500px;
+    height: 200px;
+}
+.opciones {
+    margin-top: 50px;
+    border: 2px solid white;
+    margin-right: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    float: right;
+    width: 30%;
+}
+#men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men1{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+ #men2{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 50px;
+    height: 45px;
+    border: white solid;
+    border-radius: 100%;
+ }
+section{ float: left;
+width: 100%;
+}
+section h1{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+

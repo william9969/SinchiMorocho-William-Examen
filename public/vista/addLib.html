@@ -2,15 +2,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link href="CSS/autor.css" type="text/css"  rel="stylesheet" />
 </head>
 <body>
     <header>
-        <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
-        <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>";
-        <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>";
+        <div class="principal">
+            <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
+        </div>
+        <div class="opciones">
+            <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>
+            <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>
+            <a href="listarLib.php"><img id="men2" src="Imagenes/listar.png" /></a>
+        </div>
     </header>
 
-    <form id="formulario01" method="POST" action="../controlador/addAutor.php">
+    <form id="formulario01" method="POST" action="../controlador/addLibro.php">
         <label for="nombres">Nombre Libro (*)</label>
         <br>
         <input type="text" id="nombreLib" name="nombreLib" value="" placeholder="Ingrese el nombre del Libro" />
