@@ -28,11 +28,11 @@ ACTIVIDADES DESARROLLADAS
    - Pagina para agregar el Libro:
      La página contiene un formulario en el cual ingresaremos los datos del libro para agregarlo.
    
-    <img width="30%" src="Imagenes/img6.png"></img>
+   <img width="30%" src="Imagenes/img6.png"></img>
     
-      • Libros Agregados a la Base de Datos    
+   • Libros Agregados a la Base de Datos    
       
-     <img width="30%" src="Imagenes/img7.png"></img>
+   <img width="30%" src="Imagenes/img7.png"></img>
      
   - Pagina en donde nos lista los libros agregados
   
