@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <a href="principal.html"><img id="prin" src="Imagenes/lib.jpg"/></a>
+        <a href="addAutor.html"><img id="men" src="Imagenes/anadir.png" alt = ""/></a>";
+        <a href="addLib.html"><img id="men1" src="Imagenes/addLibro.png" alt = ""/></a>";
+    </header>
+
+    <form id="formulario01" method="POST" action="../../../controladores/crear_usuario.php">
+        <label for="nombreAut">Nombre Autor (*)</label>
+        <br>
+        <input type="text" id="nombreAut" name="nombreAut" value="" placeholder="Ingrese el nombre del Autor"/>
+        <br>
+
+        <label for="nacAut">Nacionalidad Autor (*)</label>
+        <br>
+        <input type="text" id="nacAut" name="nacAut" value="" placeholder="Ingrese la Nacionalidad "/>
+        <br>
+
+        <button type="submit" id="crear" name="crear" value="Aceptar">Aceptar </button>
+        <button type="reset" id="cancelar" name="cancelar" value="Cancelar">Cancelar </button>
+        <!--<input type="submit" id="crear" name="crear" value="Aceptar" />
+        <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />-->
+    </form>
+</body>
+</html>
